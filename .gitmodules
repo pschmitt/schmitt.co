@@ -4,3 +4,6 @@
 [submodule "plugins/pico_rss"]
 	path = plugins/pico_rss
 	url = https://github.com/gilbitron/Pico-RSS-Plugin.git
+[submodule "plugins/pico_tags"]
+	path = plugins/pico_tags
+	url = https://github.com/szymonkaliski/Pico-Tags-Plugin.git
