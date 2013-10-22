@@ -7,3 +7,6 @@
 [submodule "plugins/pico_tags"]
 	path = plugins/pico_tags
 	url = https://github.com/szymonkaliski/Pico-Tags-Plugin.git
+[submodule "plugins/adv-meta"]
+	path = plugins/adv-meta
+	url = https://github.com/shawnsandy/adv-meta.git
