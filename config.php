@@ -5,6 +5,9 @@
 $config['site_title'] = 'schmitt.co';                 // Site title
 $config['theme'] = 'default';                         // Set the theme (defaults to "default")
 
+// adv-meta
+$config['adv_meta_values'] = array('description' => 'Description');
+
 /*
 $config['base_url'] = '';                             // Override base URL (e.g. http://example.com)
 $config['date_format'] = 'jS M Y';                // Set the PHP date format
