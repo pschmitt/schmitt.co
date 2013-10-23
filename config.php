@@ -1,12 +1,17 @@
 <?php 
 
+include '../analytics-key.inc.php';
+
 // Override any of the default settings below:
 
 $config['site_title'] = 'schmitt.co';                 // Site title
 $config['theme'] = 'default';                         // Set the theme (defaults to "default")
 
 // adv-meta
-$config['adv_meta_values'] = array('description' => 'Description', 'Tags' => 'tags');
+$config['adv_meta_values'] = array('description' => 'Description', 'tags' => 'Tags');
+
+// Google Analytics
+$config['google_tracking_id'] = $ANALYTICS_TRACKING_ID;
 
 /*
 $config['base_url'] = '';                             // Override base URL (e.g. http://example.com)

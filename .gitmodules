@@ -10,3 +10,6 @@
 [submodule "plugins/adv-meta"]
 	path = plugins/adv-meta
 	url = https://github.com/shawnsandy/adv-meta.git
+[submodule "plugins/pico_analytics"]
+	path = plugins/pico_analytics
+	url = https://github.com/Janaros/Pico-Analytics.git
