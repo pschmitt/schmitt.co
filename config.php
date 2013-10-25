@@ -1,6 +1,6 @@
 <?php 
 
-include '../analytics-key.inc.php';
+include '../paasswd/analytics-key.inc.php';
 
 // Override any of the default settings below:
 
