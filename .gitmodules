@@ -13,3 +13,6 @@
 [submodule "plugins/pico_analytics"]
 	path = plugins/pico_analytics
 	url = https://github.com/Janaros/Pico-Analytics.git
+[submodule "themes/pico-pure"]
+	path = themes/pico-pure
+	url = https://github.com/pschmitt/pico-pure.git
