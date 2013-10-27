@@ -16,6 +16,3 @@
 [submodule "themes/pico-pure"]
 	path = themes/pico-pure
 	url = https://github.com/pschmitt/pico-pure.git
-[submodule "plugins/pico-users"]
-	path = plugins/pico-users
-	url = https://github.com/nliautaud/pico-users.git
