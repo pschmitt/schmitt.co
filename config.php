@@ -10,7 +10,10 @@ $config['pages_order_by'] = 'date ';                  // Order pages by "alpha" 
 $config['pages_order'] = 'desc';                      // Order pages "asc" or "desc"
 
 // adv-meta
-$config['adv_meta_values'] = array('description' => 'Description');
+$config['custom_meta_values'] = array('description' => 'Description', 
+                                      'exclude'     => 'Exclude', 
+                                      //'tags'        => 'Tags'
+                                     );
 
 // Google Analytics
 $config['google_tracking_id'] = $ANALYTICS_TRACKING_ID;
@@ -21,7 +24,7 @@ $config['date_format'] = 'jS M Y';                    // Set the PHP date format
 $config['twig_config'] = array(                       // Twig settings
         'cache' => false,                             // To enable Twig caching change this to CACHE_DIR
         'autoescape' => false,                        // Autoescape Twig vars
-        'debug' => false                              // Enable Twig debug
+        'debug' => true                               // Enable Twig debug
 );
 $config['excerpt_length'] = 50;                       // The pages excerpt length (in words)
 
