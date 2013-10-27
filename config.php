@@ -11,7 +11,7 @@ $config['pages_order'] = 'desc';                      // Order pages "asc" or "d
 
 // adv-meta
 $config['custom_meta_values'] = array('description' => 'Description', 
-                                      'exclude'     => 'Exclude', 
+                                      'navigation'  => 'Navigation', 
                                       //'tags'        => 'Tags'
                                      );
 
