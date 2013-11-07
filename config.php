@@ -6,8 +6,8 @@ include '../../passwd/analytics-key.inc.php';
 
 $config['site_title'] = 'schmitt.co';                 // Site title
 $config['theme'] = 'pico-pure';                       // Set the theme (defaults to "default")
-$config['pages_order_by'] = 'date ';                  // Order pages by "alpha" or "date"
-$config['pages_order'] = 'desc';                      // Order pages "asc" or "desc"
+$config['pages_order_by'] = 'date';                   // Order pages by "alpha" or "date"
+$config['pages_order'] = 'desc';                       // Order pages "asc" or "desc"
 
 // adv-meta
 $config['custom_meta_values'] = array('description' => 'Description', 
