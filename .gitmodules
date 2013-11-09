@@ -12,7 +12,7 @@
 	url = https://github.com/shawnsandy/adv-meta.git
 [submodule "plugins/pico_analytics"]
 	path = plugins/pico_analytics
-	url = https://github.com/Janaros/Pico-Analytics.git
+	url = https://github.com/pschmitt/Pico-Analytics.git
 [submodule "themes/pico-pure"]
 	path = themes/pico-pure
 	url = https://github.com/pschmitt/pico-pure.git
