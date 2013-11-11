@@ -1,6 +1,3 @@
-[submodule "themes/default"]
-	path = themes/default
-	url = https://github.com/pschmitt/schmitt.co-theme.git 
 [submodule "plugins/pico_rss"]
 	path = plugins/pico_rss
 	url = https://github.com/gilbitron/Pico-RSS-Plugin.git
