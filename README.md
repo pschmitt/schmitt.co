@@ -2,7 +2,7 @@
 
 ## Installation
 
-```
+``` bash
 git clone --recursive https://github.com/pschmitt/schmitt.co.git ~http/schmitt.co
 cd ~http/schmitt.co/plugins/pico_analytics
 git checkout new_analytics_js
@@ -11,7 +11,7 @@ git pull
 
 ## Update
 
-```
+``` bash
 cd ~http/schmitt.co
 git pull
 git submodule --init --recursive
