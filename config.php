@@ -12,7 +12,7 @@ $config['pages_order'] = 'desc';                       // Order pages "asc" or "
 // adv-meta
 $config['custom_meta_values'] = array('description' => 'Description', 
                                       'navigation'  => 'Navigation', 
-                                      //'tags'        => 'Tags'
+                                      'tags'        => 'Tags'
                                      );
 
 // Google Analytics
