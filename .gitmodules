@@ -16,3 +16,6 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/pschmitt/schmitt.co-content.git
+[submodule "pico"]
+	path = pico
+	url = https://github.com/gilbitron/Pico.git
