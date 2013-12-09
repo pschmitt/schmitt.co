@@ -19,3 +19,6 @@
 [submodule "plugins/picotags"]
 	path = plugins/picotags
 	url = https://github.com/pschmitt/picotags.git
+[submodule "plugins/pico_download"]
+	path = plugins/pico_download
+	url = https://github.com/pschmitt/pico_download
