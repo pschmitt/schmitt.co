@@ -1,6 +1,6 @@
 <?php 
 
-include '../passwd/analytics-key.inc.php';
+include '../passwd/service-ids.inc.php';
 
 // Override any of the default settings below:
 
@@ -14,7 +14,9 @@ $config['custom_meta_values'] = array('description' => 'Description',
                                       'navigation'  => 'Navigation');
 
 // Google Analytics
-$config['google_tracking_id'] = $ANALYTICS_TRACKING_ID;
+$config['google_tracking_id'] = $_ANALYTICS_TRACKING_ID;
+// Disqus
+$config['disqus_id'] = $_DISQUS_ID;
 
 /*
 $config['base_url'] = '';                             // Override base URL (e.g. http://example.com)

@@ -22,3 +22,6 @@
 [submodule "plugins/pico_download"]
 	path = plugins/pico_download
 	url = https://github.com/pschmitt/pico_download
+[submodule "plugins/pico_disqus"]
+	path = plugins/pico_disqus
+	url = https://github.com/pschmitt/pico_disqus
