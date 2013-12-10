@@ -17,6 +17,9 @@ $config['custom_meta_values'] = array('description' => 'Description',
 $config['google_tracking_id'] = $_ANALYTICS_TRACKING_ID;
 // Disqus
 $config['disqus_id'] = $_DISQUS_ID;
+// Social
+$config['social']['services'] = array('twitter' => true, 'facebook' => true, 'google' => true, 'linkedin' => false);
+$config['social']['output'] = 'link';
 
 /*
 $config['base_url'] = '';                             // Override base URL (e.g. http://example.com)

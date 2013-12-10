@@ -25,3 +25,6 @@
 [submodule "plugins/pico_disqus"]
 	path = plugins/pico_disqus
 	url = https://github.com/pschmitt/pico_disqus
+[submodule "plugins/pico-share"]
+	path = plugins/pico-share
+	url = https://github.com/narcis-radu/pico-share
