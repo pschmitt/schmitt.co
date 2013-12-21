@@ -1,16 +1,15 @@
-<?php 
+<?php
 
 include '../passwd/service-ids.inc.php';
+require '../passwd/pico-passwd.inc.php';
 
-// Override any of the default settings below:
-
-$config['site_title'] = 'schmitt.co';                 // Site title
-$config['theme'] = 'pico-pure';                       // Set the theme (defaults to "default")
-$config['pages_order_by'] = 'date';                   // Order pages by "alpha" or "date"
-$config['pages_order'] = 'desc';                      // Order pages "asc" or "desc"
+$config['site_title'] = 'schmitt.co'; // Site title
+$config['theme'] = 'pico-pure';       // Set the theme (defaults to "default")
+$config['pages_order_by'] = 'date';   // Order pages by "alpha" or "date"
+$config['pages_order'] = 'desc';      // Order pages "asc" or "desc"
 
 // adv-meta
-$config['custom_meta_values'] = array('description' => 'Description', 
+$config['custom_meta_values'] = array('description' => 'Description',
                                       'navigation'  => 'Navigation');
 
 // Google Analytics
@@ -20,6 +19,10 @@ $config['disqus_id'] = $_DISQUS_ID;
 // Social
 $config['social']['services'] = array('twitter' => true, 'facebook' => true, 'google' => true, 'linkedin' => false);
 $config['social']['output'] = 'link';
+// Users
+$config['hash_type'] = 'sha256';
+$config['users'] = $_PICO_USERS;
+// $config['rights'] = array ('private/' => 'pschmitt');
 
 /*
 $config['base_url'] = '';                             // Override base URL (e.g. http://example.com)
