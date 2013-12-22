@@ -10,7 +10,8 @@ $config['pages_order'] = 'desc';      // Order pages "asc" or "desc"
 
 // adv-meta
 $config['custom_meta_values'] = array('description' => 'Description',
-                                      'navigation'  => 'Navigation');
+                                      'navigation'  => 'Navigation',
+                                      'updated'     => 'Updated');
 
 // Google Analytics
 $config['google_tracking_id'] = $_ANALYTICS_TRACKING_ID;
