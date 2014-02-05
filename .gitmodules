@@ -1,33 +1,3 @@
-[submodule "plugins/pico_rss"]
-	path = plugins/pico_rss
-	url = https://github.com/gilbitron/Pico-RSS-Plugin.git
-[submodule "plugins/adv-meta"]
-	path = plugins/adv-meta
-	url = https://github.com/shawnsandy/adv-meta.git
-[submodule "plugins/pico_analytics"]
-	path = plugins/pico_analytics
-	url = https://github.com/pschmitt/Pico-Analytics.git
-[submodule "themes/pico-pure"]
-	path = themes/pico-pure
-	url = https://github.com/pschmitt/pico-pure.git
-[submodule "content"]
-	path = content
-	url = https://github.com/pschmitt/schmitt.co-content.git
-[submodule "pico"]
-	path = pico
-	url = https://github.com/gilbitron/Pico.git
-[submodule "plugins/picotags"]
-	path = plugins/picotags
-	url = https://github.com/pschmitt/picotags.git
-[submodule "plugins/pico_download"]
-	path = plugins/pico_download
-	url = https://github.com/pschmitt/pico_download
-[submodule "plugins/pico_disqus"]
-	path = plugins/pico_disqus
-	url = https://github.com/pschmitt/pico_disqus
-[submodule "plugins/pico-share"]
-	path = plugins/pico-share
-	url = https://github.com/narcis-radu/pico-share
-[submodule "plugins/pico-users"]
-	path = plugins/pico-users
-	url = https://github.com/pschmitt/pico-users
+[submodule "phile"]
+	path = phile
+	url = https://github.com/PhileCMS/Phile
