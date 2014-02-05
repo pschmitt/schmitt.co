@@ -1,3 +1,9 @@
 [submodule "phile"]
 	path = phile
 	url = https://github.com/PhileCMS/Phile
+[submodule "content"]
+	path = content
+	url = https://github.com/pschmitt/schmitt.co-content.git
+[submodule "themes/pico-pure"]
+	path = themes/pico-pure
+	url = https://github.com/pschmitt/pico-pure.git
