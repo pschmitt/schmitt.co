@@ -1,5 +1,8 @@
 <?php
 
+include '../passwd/service-ids.inc.php';
+require '../passwd/pico-passwd.inc.php';
+
 // use this config file to overwrite the defaults from default_config.php
 // or to make local config changes.
 $config = array();
@@ -10,7 +13,7 @@ $config['site_title'] = 'schmitt.co'; // Site title
 $config['base_url'] = \Phile\Utility::getBaseUrl(); // use the Utility class to guess the base_url
 $config['theme'] = 'pico-pure'; // Set the theme
 $config['date_format'] = 'jS M Y'; // Set the PHP date format
-$config['pages_order_by'] = 'title'; // Order pages by "title" (alpha) or "date"
+$config['pages_order_by'] = 'date'; // Order pages by "title" (alpha) or "date"
 $config['pages_order'] = 'desc'; // Order pages "asc" or "desc"
 
 // figure out the timezone
@@ -23,12 +26,22 @@ $config['timezone'] = $timezone; // The default timezone
 // also notice, each plugin has its own config namespace.
 // activate plugins
 $config['plugins'] = array(
-	'phileDemoPlugin' => array('active' => true),
+	'phileDemoPlugin' => array('active' => false),
 	'phileParserMarkdown' => array('active' => true), // the default parser
 	'phileTemplateTwig' => array('active' => true), // the default template engine
 	'philePhpFastCache' => array('active' => false), // the default cache engine
 	'phileSimpleFileDataPersistence' => array('active' => true), // the default data storage engine
     'phileRSSFeed' => array('active' => true),
+    'phileTableOfContent' => array('active' => true),
+    'phileAnalytics' => array('active' => true),
+    'phileContentVariables' => array('active' => true),
+);
+
+$config['google_tracking_id'] = $_ANALYTICS_TRACKING_ID;
+
+$config['variables'] = array(
+  'site_title' => $config['site_title'],
+  'base_url' => \Phile\Utility::getBaseUrl()
 );
 
 // it is important to return the $config array!

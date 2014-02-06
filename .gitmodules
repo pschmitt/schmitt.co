@@ -10,3 +10,12 @@
 [submodule "plugins/phileRSSFeed"]
 	path = plugins/phileRSSFeed
 	url = https://github.com/PhileCMS/phileRSSFeed.git
+[submodule "plugins/phileContentVariables"]
+	path = plugins/phileContentVariables
+	url = https://github.com/PhileCMS/phileContentVariables
+[submodule "plugins/phileAnalytics"]
+	path = plugins/phileAnalytics
+	url = https://github.com/pschmitt/phileAnalytics.git
+[submodule "plugins/phileTableOfContent"]
+	path = plugins/phileTableOfContent
+	url = https://github.com/pschmitt/phileTableOfContent.git
