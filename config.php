@@ -6,7 +6,7 @@ require '../passwd/phile-passwd.inc.php';
 // use this config file to overwrite the defaults from default_config.php
 // or to make local config changes.
 $config = array();
-$config['encryptionKey'] = $_PHILE_ENV_KEY;
+$config['encryptionKey'] = $_PHILE_ENC_KEY;
 
 // try to figure out the install path
 $config['site_title'] = 'schmitt.co'; // Site title
