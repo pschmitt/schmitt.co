@@ -38,6 +38,7 @@ $config['plugins'] = array(
     'phileUsers' => array('active' => true),
     'phileTags' => array('active' => true),
     'phileShare' => array('active' => true),
+    'phileDisqus' => array('active' => true),
 );
 
 $config['google_tracking_id'] = $_ANALYTICS_TRACKING_ID;
@@ -53,6 +54,9 @@ $config['rights'] = $_PHILE_RIGHTS;
 
 // Sharing
 $config['share_services'] = array('twitter' => true, 'facebook' => true, 'google' => true, 'linkedin' => false);
+
+// Disqus comments
+$config['disqus_id'] = $_DISQUS_ID;
 
 // it is important to return the $config array!
 return $config;

@@ -28,3 +28,6 @@
 [submodule "plugins/phileShare"]
 	path = plugins/phileShare
 	url = https://github.com/pschmitt/phileShare.git
+[submodule "plugins/phileDisqus"]
+	path = plugins/phileDisqus
+	url = https://github.com/pschmitt/phileDisqus.git
