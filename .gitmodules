@@ -16,9 +16,9 @@
 [submodule "plugins/phileAnalytics"]
 	path = plugins/phileAnalytics
 	url = https://github.com/pschmitt/phileAnalytics.git
-[submodule "plugins/phileTableOfContent"]
+[submodule "plugins/phileTableOfContents"]
 	path = plugins/phileTableOfContents
-	url = https://github.com/pschmitt/phileTableOfContent.git
+	url = https://github.com/pschmitt/phileTableOfContents.git
 [submodule "plugins/phileUsers"]
 	path = plugins/phileUsers
 	url = https://github.com/pschmitt/phileUsers.git
