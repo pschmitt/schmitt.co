@@ -36,6 +36,7 @@ $config['plugins'] = array(
     'phileAnalytics' => array('active' => true),
     'phileContentVariables' => array('active' => true),
     'phileUsers' => array('active' => true),
+    'phileTags' => array('active' => true),
 );
 
 $config['google_tracking_id'] = $_ANALYTICS_TRACKING_ID;

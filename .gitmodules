@@ -22,3 +22,6 @@
 [submodule "plugins/phileUsers"]
 	path = plugins/phileUsers
 	url = https://github.com/pschmitt/phileUsers.git
+[submodule "plugins/phileTags"]
+	path = plugins/phileTags
+	url = https://github.com/pschmitt/phileTags
