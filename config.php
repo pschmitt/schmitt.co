@@ -48,7 +48,7 @@ $config['variables'] = array(
 
 // Users
 $config['users'] = $_PHILE_USERS;
-$config['right'] = $_PHILE_RIGHTS;
+$config['rights'] = $_PHILE_RIGHTS;
 
 // it is important to return the $config array!
 return $config;
