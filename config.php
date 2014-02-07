@@ -37,6 +37,7 @@ $config['plugins'] = array(
     'phileContentVariables' => array('active' => true),
     'phileUsers' => array('active' => true),
     'phileTags' => array('active' => true),
+    'phileShare' => array('active' => true),
 );
 
 $config['google_tracking_id'] = $_ANALYTICS_TRACKING_ID;
@@ -49,6 +50,9 @@ $config['variables'] = array(
 // Users
 $config['users'] = $_PHILE_USERS;
 $config['rights'] = $_PHILE_RIGHTS;
+
+// Sharing
+$config['share_services'] = array('twitter' => true, 'facebook' => true, 'google' => true, 'linkedin' => false);
 
 // it is important to return the $config array!
 return $config;

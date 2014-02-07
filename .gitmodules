@@ -25,3 +25,6 @@
 [submodule "plugins/phileTags"]
 	path = plugins/phileTags
 	url = https://github.com/pschmitt/phileTags
+[submodule "plugins/phileShare"]
+	path = plugins/phileShare
+	url = https://github.com/pschmitt/phileShare.git
