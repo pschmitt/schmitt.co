@@ -32,7 +32,7 @@ $config['plugins'] = array(
     'philePhpFastCache' => array('active' => false), // the default cache engine
     'phileSimpleFileDataPersistence' => array('active' => true), // the default data storage engine
     'phileRSSFeed' => array('active' => true),
-    'phileTableOfContent' => array('active' => true),
+    'phileTableOfContents' => array('active' => true),
     'phileAnalytics' => array('active' => true),
     'phileContentVariables' => array('active' => true),
     'phileUsers' => array('active' => true),
@@ -48,6 +48,7 @@ $config['variables'] = array(
 
 // Users
 $config['users'] = $_PHILE_USERS;
+$config['right'] = $_PHILE_RIGHTS;
 
 // it is important to return the $config array!
 return $config;
