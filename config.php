@@ -26,19 +26,19 @@ $config['timezone'] = $timezone; // The default timezone
 // also notice, each plugin has its own config namespace.
 // activate plugins
 $config['plugins'] = array(
-    'phileDemoPlugin' => array('active' => false),
-    'phileParserMarkdown' => array('active' => true), // the default parser
-    'phileTemplateTwig' => array('active' => true), // the default template engine
-    'philePhpFastCache' => array('active' => false), // the default cache engine
-    'phileSimpleFileDataPersistence' => array('active' => true), // the default data storage engine
-    'phileRSSFeed' => array('active' => true),
-    'phileTableOfContents' => array('active' => true),
-    'philePiwik' => array('active' => true),
-    'phileContentVariables' => array('active' => true),
-    'phileUsers' => array('active' => true),
-    'phileTags' => array('active' => true),
-    'phileShare' => array('active' => true),
-    'phileDisqus' => array('active' => true),
+    'phileParserMarkdown'            => array('active' => true),  // the default parser
+    'phileTemplateTwig'              => array('active' => true),  // the default template engine
+    'philePhpFastCache'              => array('active' => false), // the default cache engine
+    'phileSimpleFileDataPersistence' => array('active' => true),  // the default data storage engine
+    'phileRSSFeed'                   => array('active' => true),
+    'phileTwigFilters'               => array('active' => false),
+    'phileTableOfContents'           => array('active' => true),
+    'philePiwik'                     => array('active' => true),
+    'phileContentVariables'          => array('active' => true),
+    'phileUsers'                     => array('active' => true),
+    'phileTags'                      => array('active' => true),
+    'phileShare'                     => array('active' => true),
+    'phileDisqus'                    => array('active' => true),
 );
 
 $config['variables'] = array(
