@@ -33,15 +33,13 @@ $config['plugins'] = array(
     'phileSimpleFileDataPersistence' => array('active' => true), // the default data storage engine
     'phileRSSFeed' => array('active' => true),
     'phileTableOfContents' => array('active' => true),
-    'phileAnalytics' => array('active' => true),
+    'philePiwik' => array('active' => true),
     'phileContentVariables' => array('active' => true),
     'phileUsers' => array('active' => true),
     'phileTags' => array('active' => true),
     'phileShare' => array('active' => true),
     'phileDisqus' => array('active' => true),
 );
-
-$config['google_tracking_id'] = $_ANALYTICS_TRACKING_ID;
 
 $config['variables'] = array(
     'site_title' => $config['site_title'],

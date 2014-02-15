@@ -13,9 +13,6 @@
 [submodule "plugins/phileContentVariables"]
 	path = plugins/phileContentVariables
 	url = https://github.com/PhileCMS/phileContentVariables
-[submodule "plugins/phileAnalytics"]
-	path = plugins/phileAnalytics
-	url = https://github.com/pschmitt/phileAnalytics.git
 [submodule "plugins/phileTableOfContents"]
 	path = plugins/phileTableOfContents
 	url = https://github.com/pschmitt/phileTableOfContents.git
@@ -31,3 +28,6 @@
 [submodule "plugins/phileDisqus"]
 	path = plugins/phileDisqus
 	url = https://github.com/pschmitt/phileDisqus.git
+[submodule "plugins/philePiwik"]
+	path = plugins/philePiwik
+	url = https://github.com/pschmitt/philePiwik
