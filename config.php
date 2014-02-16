@@ -46,6 +46,9 @@ $config['variables'] = array(
     'base_url' => $config['base_url']
 );
 
+// Piwig
+$config['piwik_hide_aliases'] = true;
+
 // Users
 $config['users'] = $_PHILE_USERS;
 $config['rights'] = $_PHILE_RIGHTS;
