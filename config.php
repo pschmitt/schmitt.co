@@ -27,11 +27,12 @@ $config['timezone'] = $timezone; // The default timezone
 // activate plugins
 $config['plugins'] = array(
     'phileParserMarkdown'            => array('active' => true),  // the default parser
+    'phileParserMeta'                => array('active' => true),  // the default parser
     'phileTemplateTwig'              => array('active' => true),  // the default template engine
     'philePhpFastCache'              => array('active' => false), // the default cache engine
     'phileSimpleFileDataPersistence' => array('active' => true),  // the default data storage engine
     'phileRSSFeed'                   => array('active' => true),
-    'phileTwigFilters'               => array('active' => false),
+    'phileTwigFilters'               => array('active' => true),
     'phileTableOfContents'           => array('active' => true),
     'philePiwik'                     => array('active' => true),
     'phileContentVariables'          => array('active' => true),
