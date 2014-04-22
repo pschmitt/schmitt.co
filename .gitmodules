@@ -31,3 +31,6 @@
 [submodule "plugins/philePiwik"]
 	path = plugins/philePiwik
 	url = https://github.com/pschmitt/philePiwik
+[submodule "plugins/phileTwigFilters"]
+	path = plugins/phileTwigFilters
+	url = https://github.com/PhileCMS/phileTwigFilters
