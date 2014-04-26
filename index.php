@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * @author Frank Nägler
+ * @link https://philecms.com
+ * @license http://opensource.org/licenses/MIT
+ * @package Phile
+ */
+define('PHILE_VERSION',    '1.0.0');
 define('ROOT_DIR',         realpath(dirname(__FILE__)) . DIRECTORY_SEPARATOR);
 define('CONTENT_DIR',      ROOT_DIR . 'content' . DIRECTORY_SEPARATOR);
 define('CONTENT_EXT',      '.md');
@@ -14,6 +21,19 @@ spl_autoload_register(function ($className) {
 	$fileName = LIB_DIR . str_replace("\\", DIRECTORY_SEPARATOR, $className) . '.php';
 	if (file_exists($fileName)) {
 		require_once $fileName;
+	} else {
+		// autoload plugin namespace
+		if (strpos($className, "Phile\\Plugin\\") === 0) {
+			$className 		= substr($className, 13);
+			$classNameParts = explode('\\', $className);
+			$pluginVendor 	= lcfirst(array_shift($classNameParts));
+			$pluginName 	= lcfirst(array_shift($classNameParts));
+			$classPath		= array_merge(array($pluginVendor, $pluginName, 'Classes'), $classNameParts);
+			$fileName 		= PLUGINS_DIR . implode(DIRECTORY_SEPARATOR, $classPath) . '.php';
+			if (file_exists($fileName)) {
+				require_once $fileName;
+			}
+		}
 	}
 });
 

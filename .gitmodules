@@ -8,29 +8,29 @@
 	path = themes/pico-pure
 	url = https://github.com/pschmitt/pico-pure.git
 [submodule "plugins/phileRSSFeed"]
-	path = plugins/phileRSSFeed
+	path = plugins/phile/rssFeed
 	url = https://github.com/PhileCMS/phileRSSFeed.git
 [submodule "plugins/phileContentVariables"]
-	path = plugins/phileContentVariables
+	path = plugins/phile/contentVariables
 	url = https://github.com/PhileCMS/phileContentVariables
 [submodule "plugins/phileTableOfContents"]
-	path = plugins/phileTableOfContents
+	path = plugins/pschmitt/tableOfContents
 	url = https://github.com/pschmitt/phileTableOfContents.git
 [submodule "plugins/phileUsers"]
-	path = plugins/phileUsers
+	path = plugins/pschmitt/users
 	url = https://github.com/pschmitt/phileUsers.git
 [submodule "plugins/phileTags"]
-	path = plugins/phileTags
+	path = plugins/pschmitt/tags
 	url = https://github.com/pschmitt/phileTags
 [submodule "plugins/phileShare"]
-	path = plugins/phileShare
+	path = plugins/pschmitt/share
 	url = https://github.com/pschmitt/phileShare.git
 [submodule "plugins/phileDisqus"]
-	path = plugins/phileDisqus
+	path = plugins/pschmitt/disqus
 	url = https://github.com/pschmitt/phileDisqus.git
 [submodule "plugins/philePiwik"]
-	path = plugins/philePiwik
+	path = plugins/pschmitt/piwik
 	url = https://github.com/pschmitt/philePiwik
 [submodule "plugins/phileTwigFilters"]
-	path = plugins/phileTwigFilters
+	path = plugins/phile/twigFilters
 	url = https://github.com/PhileCMS/phileTwigFilters
