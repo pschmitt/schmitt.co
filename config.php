@@ -37,21 +37,15 @@ $config['plugins'] = array(
     'phile\\twigFilters'               => array('active' => true),
     // Mine
     'pschmitt\\tableOfContents'        => array('active' => true),
-    'pschmitt\\piwik'                  => array('active' => true),
-    'pschmitt\\users'                  => array('active' => true),
+    'pschmitt\\piwik'                  => array('active' => true,
+                                                'piwik_hide_aliases' => true),
+    'pschmitt\\users'                  => array('active' => true,
+                                                'users'  => $_PHILE_USERS,
+                                                'rights' => $_PHILE_RIGHTS),
     'pschmitt\\tags'                   => array('active' => true),
     'pschmitt\\share'                  => array('active' => true),
-    'pschmitt\\disqus'                 => array('active' => true),
-
+    'pschmitt\\disqus'                 => array('active' => true,
+                                                'disqus_id' => $_DISQUS_ID),
 );
-
-// Plugin config section
-// Piwik
-$config['piwik_hide_aliases'] = true;
-// Users
-$config['users'] = $_PHILE_USERS;
-$config['rights'] = $_PHILE_RIGHTS;
-// Disqus
-$config['disqus_id'] = $_DISQUS_ID;
 
 return $config;
