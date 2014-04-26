@@ -48,4 +48,9 @@ $config['plugins'] = array(
                                                 'disqus_id' => $_DISQUS_ID),
 );
 
+$config['variables'] = array(
+  'site_title' => $config['site_title'],
+  'base_url'   => $config['base_url']
+);
+
 return $config;
